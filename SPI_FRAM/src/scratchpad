@@ -1,0 +1,15 @@
+/*
+        c = USART2_read();                  // Get character
+
+        if (c == '\r')                      // I think this is a Unix style line 
+        {                                   // ending issue on my dev machine. 
+            USART2_write(10);               // To be further researched...
+            USART2_write(13);
+        }
+        else{}
+        
+        USART2_write(c);                    // Echo on serial port
+
+        address++;                          // Increment to next addy
+        data++;                             // Increment data value
+        */
